@@ -15,7 +15,7 @@ La ui recibe un archivo de texto con los datos del autómata, con el siguiente f
 <strong>[Tercera linea: Estado(s) Final(es)] </strong><br>
   Ejemplo: 2,3 <br>
 <strong>[Tabla de transicion] </strong><br>
-  Esta tabla debe ir ordenada de tal forma que cada valor del alfabeto sea una columna y las filas los estados, separados por espacios. Sin poner los <i>headers</i> de la tabla. <br>
+  Esta tabla debe ir ordenada de tal forma que cada valor del alfabeto sea una columna y como filas los estados, separados por espacios. Sin poner los <i>headers</i> de la tabla. <br>
   El programa acepta poner cualquier caracter cuando no hay una transición T(a,e)=? Donde aE{alfabeto} y eE{Estados} <br>
   Ejemplo: <br>
   0 - - <br>
