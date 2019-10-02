@@ -4,21 +4,21 @@ Autómata Finito No determista para deteccion de pertencencia en algun lenguaje.
 La ui recibe un archivo de texto con los datos del autómata, con el siguiente formato.
 
 <hr>
-ARCHIVO:
-[Primera linea: Alfabeto] 
-  Pueden ser letras o numeros, separados por coma, no importa los espacios. Ejemplo: a,b,c
-[Segunda linea: Estados] 
-  Pueden ser letras o numeros, separados por coma, no importa los espacios. Ejemplo: 0,1,2,3
-[Tercera linea: Estado Inicial] 
-  Ejemplo: 
-  0
-[Tercera linea: Estado(s) Final(es)] 
-  Ejemplo: 2,3
-[Tabla de transicion] 
-  Esta tabla debe ir ordenada de tal forma que cada valor del alfabeto sea una columna y las filas los estados, separados por espacios. Sin poner los <i>headers<i> de la tabla.
-  El programa acepta poner cualquier caracter cuando no hay una transición T(a,e)=? Donde aE{alfabeto} y eE{Estados}
-  Ejemplo: 
-  0 - -
+ARCHIVO:<br>
+[Primera linea: Alfabeto] <br>
+  Pueden ser letras o numeros, separados por coma, no importa los espacios. Ejemplo: a,b,c <br>
+[Segunda linea: Estados] <br>
+  Pueden ser letras o numeros, separados por coma, no importa los espacios. Ejemplo: 0,1,2,3 <br>
+[Tercera linea: Estado Inicial] <br>
+  Ejemplo: <br>
+  0 <br>
+[Tercera linea: Estado(s) Final(es)] <br>
+  Ejemplo: 2,3 <br>
+[Tabla de transicion] <br>
+  Esta tabla debe ir ordenada de tal forma que cada valor del alfabeto sea una columna y las filas los estados, separados por espacios. Sin poner los <i>headers</i> de la tabla. <br>
+  El programa acepta poner cualquier caracter cuando no hay una transición T(a,e)=? Donde aE{alfabeto} y eE{Estados} <br>
+  Ejemplo: <br>
+  0 - - <br>
   . 2 3
   ? 3 *
   3 - 1
