@@ -1,4 +1,4 @@
-# AFN
+# Autómata Finito No determinista
 Autómata Finito No determista para deteccion de pertencencia en algun lenguaje.
 
 La ui recibe un archivo de texto con los datos del autómata, con el siguiente formato.
