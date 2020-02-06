@@ -7,12 +7,6 @@ import java.util.Scanner;
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
  *
  * @author lalos
@@ -296,6 +290,9 @@ public class uiAutomata extends javax.swing.JFrame {
             archivo=seleccionar.getSelectedFile();
             if(archivo.canRead()){
                 if(archivo.getName().endsWith(".txt")){
+                    alfabeto.clear();
+                    estados.clear();
+                    finales.clear();
                     String documento=AbrirArchivo(archivo);
                     guardarTabla(documento);
                 }else{
